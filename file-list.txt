@@ -1,0 +1,48 @@
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .babelrc
+	new file:   .gitignore
+	new file:   package-lock.json
+	new file:   package.json
+	new file:   src/App.js
+	new file:   src/detail-view/DetailView.js
+	new file:   src/detail-view/map/ImageRoll.js
+	new file:   src/detail-view/map/Map.js
+	new file:   src/detail-view/section/Section.js
+	new file:   src/detail-view/section/review-item/ReviewItem.js
+	new file:   src/images/Superformula-FE-test-264388d-sketch.psd
+	new file:   src/images/Superformula-FE-test-264388d.sketch
+	new file:   src/images/map-marker.png
+	new file:   src/images/mockup.png
+	new file:   src/images/rating-sprites.png
+	new file:   src/images/rating-sprites.psd
+	new file:   src/index.js
+	new file:   src/main/Main.js
+	new file:   src/main/filter-navigation/Categories.js
+	new file:   src/main/filter-navigation/FilterNavigation.js
+	new file:   src/main/filter-navigation/OpenNow.js
+	new file:   src/main/filter-navigation/Price.js
+	new file:   src/main/section/Section.js
+	new file:   src/main/section/restaurant-item/Cuisine.js
+	new file:   src/main/section/restaurant-item/Image.js
+	new file:   src/main/section/restaurant-item/LearnMore.js
+	new file:   src/main/section/restaurant-item/OpenClosed.js
+	new file:   src/main/section/restaurant-item/PriceRange.js
+	new file:   src/main/section/restaurant-item/Rating.js
+	new file:   src/main/section/restaurant-item/RestaurantItem.js
+	new file:   src/main/section/restaurant-item/RestaurantName.js
+	new file:   src/styles/custom.css
+	new file:   src/utils/applyFilters.js
+	new file:   src/utils/client.js
+	new file:   webpack.config.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file-list.txt
+
