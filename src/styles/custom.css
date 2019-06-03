@@ -1,0 +1,292 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#root {
+    margin: 0 auto;
+    max-width: 1312px;
+    padding: 0 20px;
+}
+
+
+
+/* Filter */
+.filter-nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 0 -20px 50px -20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.filter-nav .MuiTypography-body1,
+.filter-nav .MuiInputBase-root,
+.filter-nav .MuiFormLabel-root {
+    font-size: 0.9em;
+    color: #000;
+    font-weight: bold;
+}
+
+.filter-nav-left {
+    display: flex;
+    position: relative;
+    top: 4px;
+}
+
+.filter-label, .filter-open-radio {
+    position: relative;
+    top: 6px;
+}
+
+.inline, .filter-open-radio {
+    margin-right: 10px;
+}
+
+.filter-open-radio {
+    position: relative;
+    top: -6px;
+    left: 6px;
+}
+
+.filter-open-radio .MuiFormControlLabel-label {
+    margin-left: -4px;
+}
+
+.filter-nav-left .inline {
+    position: relative;
+    top: -1em;
+}
+
+.filter-nav-right button {
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #c8c8c8;
+    background: none;
+    border: 1px solid #c8c8c8;
+}
+
+
+/* Restaurant List */
+
+.main-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 0 -15px;
+}
+
+.restaurant-item {
+    flex-basis: 25%;
+    width: 300px;
+    -ms-flex: auto;
+    overflow: hidden;
+    margin-bottom: 80px;
+    position: relative;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.thumbnail {
+    max-height: 180px;
+    overflow: hidden;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.thumbnail img{
+    position: relative;
+    top: 99999px;
+}
+
+.restaurant-item h3 {
+    margin: 12px 0;
+}
+
+
+.rating {
+    height: 20px;
+    width: 110px;
+    background: url(../images/rating-sprites.png) no-repeat;
+    margin: 13px 0 17px -2px;
+} 
+
+.rating-0 {background-position: 0 0;}
+.rating-0-half {background-position: 0 -22px;}
+.rating-1 {background-position: 0 -44px;}
+.rating-1-half {background-position: 0 -67px;}
+.rating-2 {background-position: 0 -90px;}
+.rating-2-half {background-position: 0 -113px;}
+.rating-3 {background-position: 0 -136px;}
+.rating-3-half {background-position: 0 -159px;}
+.rating-4 {background-position: 0 -182px;}
+.rating-4-half {background-position: 0 -205px;}
+.rating-5 {background-position: 0 -228px;}
+
+
+.one-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    color: #999;
+    padding: 0 0 22px 0;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.one-row .rt {
+    position: relative;
+    top: -1em;
+}
+
+.close span {
+    color: #ff3548;
+    font-size: 2em;
+    position: relative;
+    top: 4px;
+}
+
+.open span {
+    color: #00e8a4;
+    font-size: 2em;
+    position: relative;
+    top: 4px;
+}
+
+.learn-more {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+}
+
+.learn-more button {
+    background: #002b56;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.load-more button {
+    margin: 80px auto;
+    width: 416px;
+    height: 48px;
+    border: 1px solid #002b56;
+    color: #002b56;
+    background: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+
+/* Detail Modal */
+.detail-view {
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+.map-row {
+    height: 200px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 70px;
+}
+
+.map-row .lt {
+    height: 200px;
+    width: 50%;
+    float: left;    
+}
+
+.map-address {
+    color: #666;
+    margin: 20px 0 50px 0;
+}
+
+.image-roll {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    float: right;
+}
+
+.image-roll .thumbnail {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.review-count {
+    color: #666;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.review-item {
+    display: flex;
+    justify-content: space between;
+    padding: 70px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.review-item .thumbnail {
+    max-height: 80px;
+    max-width: 80px;
+    margin-right: 32px;
+}
+
+.review-item .mid {
+    max-width: 190px;
+    margin-right: 32px;
+}
+
+.review-item .rt {
+    word-wrap: none;
+    height: auto;
+}
+
+.review-item .rating {
+    margin-top: 0;
+}
+
+.review-item .mid .user-name {
+    font-weight: bold;
+}
+
+.review-item .mid .review-date {
+    color: #666;
+}
+
+
+
+
+/* Override */
+.MuiToolbar-root{
+    justify-content: flex-end;
+    background: #e6e6e6;
+}
+
+.MuiSelect-root {
+    max-width: 120px;
+    min-width: 120px;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked,
+.MuiCheckbox-colorSecondary {
+    color: #002b56 !important;
+}
+
+.MuiInputLabel-shrink {
+    transform: translate(0, 9px) scale(0.75) !important;
+}
+
+button {
+    cursor: pointer;
+}
