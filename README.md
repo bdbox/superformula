@@ -17,23 +17,23 @@ run
 # Technologies
 
 Technologies and  libraries used:
-..*  React
-..*  Babel, webpack
-..*  material-ui (Select component)
-..*  google-map-react (Google Map)
-..*  yelp-fusion (Fetch Yelp API)
+*  React
+*  Babel, webpack
+*  material-ui (Select component)
+*  google-map-react (Google Map)
+*  yelp-fusion (Fetch Yelp API)
 
 # Screenshots
 
-![Screenshot: Restaurant List](https://github.com/bdbox/superformula/blob/master/src/images/map-marker.png)
+![Screenshot: Restaurant List](https://github.com/bdbox/superformula/blob/master/src/images/screenshot-list-small.jpg)
 
 
-![Screenshot: Restaurant Detail](https://github.com/bdbox/superformula/blob/master/src/images/map-marker.png)
+![Screenshot: Restaurant Detail](https://github.com/bdbox/superformula/blob/master/src/images/screenshot-detail-small.jpg)
 
 # Source file list
 	
 	new file:   src/App.js
-    
+
 	new file:   src/detail-view/DetailView.js
 	new file:   src/detail-view/map/ImageRoll.js
 	new file:   src/detail-view/map/Map.js
