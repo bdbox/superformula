@@ -69,3 +69,17 @@ Technologies and  libraries used:
 
 	new file:   src/utils/applyFilters.js
 	new file:   src/utils/client.js
+
+# Some thoughts
+
+* It needs extra long time (much more than 4-8 hours) to wrap everything up and make them into a functional coding project.
+* Overall the project brings me lots of fun.
+* Another fun part is GraphQL that I didn't complete yet. But plan to do it some time later.
+* My focus is on how to create reusable and functional components.
+* I didn't use state management software like Redux, and believe React alone will handle the complexity of this job.
+* Prop drilling may look noisy, it is how React is designed. I can use Redux or Context to improve, but it sujects to reuseability and overall complexity.
+* I made a change of original design because I think a checkbox (Open now filter) is better than a radio button here.
+* I also think all appearance of checkboxes should be squared with/without round corners. Circle/disk is for radio button.
+* I didn't find a close match of Select Dropdown and has no time to customize it, then I introduced Material-UI for this reason.
+* I knew some font size and positioning are not perfect yet, but time is tight, I felt. I want to appologize.
+* Responsive and mobile site are not challenging for me, but they're time consuming job.
