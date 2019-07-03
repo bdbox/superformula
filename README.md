@@ -1,4 +1,5 @@
 This project is for an interview test with Super Formula. 
+(But the company looks like a cheater, don't waste your time to apply the fake job.)
 
 # Live Demo
 
